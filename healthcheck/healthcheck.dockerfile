@@ -1,3 +1,3 @@
 FROM alpine:latest
 COPY healthcheck.sh healthcheck.sh
-CMD bash
+CMD "echo 'DENEME'"
