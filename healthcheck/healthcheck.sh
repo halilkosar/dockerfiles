@@ -1,3 +1,3 @@
-echo "working for $DURATION seconds"
-sleep $DURATION
+echo "working for $1 seconds"
+sleep $1
 exit 1
