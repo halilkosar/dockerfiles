@@ -1,3 +1,3 @@
 FROM alpine:latest
-COPY healthcheck.sh healthcheck.sh
-ENTRYPOINT ["bin/sh"]
+COPY healthcheck.sh /app/healthcheck.sh
+CMD /app/healthcheck.sh
