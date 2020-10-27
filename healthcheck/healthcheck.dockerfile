@@ -1,3 +1,4 @@
 FROM alpine:latest
-ENTRYPOINT ["/bin/sh -c 'healthcheck.sh'"]
+COPY healthcheck.sh .
+ENTRYPOINT ["/bin/bash -c 'healthcheck.sh'"]
 CMD ["10"]
