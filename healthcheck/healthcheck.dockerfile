@@ -1,3 +1,3 @@
 FROM alpine:latest
 COPY healthcheck.sh healthcheck.sh
-ENTRYPOINT ["bin/bash"]
+ENTRYPOINT ["bin/sh"]
