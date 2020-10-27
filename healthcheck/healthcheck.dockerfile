@@ -1,3 +1,3 @@
 FROM alpine:latest
-ENTRYPOINT ["healthcheck.sh"]
+ENTRYPOINT ["/bin/sh -c 'healthcheck.sh'"]
 CMD ["10"]
